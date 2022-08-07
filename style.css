@@ -26,8 +26,7 @@ header, h3{
 }
 
 h3{
-    margin: 20px;
-    padding-left: 25%;
+    text-align: center;
     font-size: 25px;
 }
 
@@ -40,7 +39,6 @@ header{
 p{
     margin: 10px;
     font-size: 20px;
-    padding: 10px 17% 10px 20%;
     text-align: justify;
 }
 
@@ -56,13 +54,14 @@ a.main-page-links{
 }
 
 li{
-    margin: 10px 15% 10px 20%;
+    margin: 20px 30px 20px 30px;
     font-size: 18px;
 }
 
 ol{
-    margin-left: 20px;
-    margin-bottom: 75px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 75px;
 }
 
 li.link{
@@ -76,7 +75,54 @@ img{
     width: auto;
     margin: auto;
     margin-bottom: 40px;
-    margin-top: 25px;
-    display: block;
-    box-sizing: border-box;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.container, .text, .ingredients-steps{
+    border: 2px solid #000;
+    border-radius: 25px;
+    margin-left: 20%;
+    background-color: #f2f2f2;
+    margin-bottom: 40px;
+}
+
+.container{
+    height: 100%;
+    width: 63%;
+    display: flex;
+}
+
+.container img{
+    margin-left: 30px;
+    border-radius: 10%;
+}
+
+.container p{
+   padding: 0;
+   margin: 100px 40px 100px 40px;
+}
+
+.text{
+    width: 60%;
+    margin-top: 40px;
+    padding: 20px 30px 20px 30px;
+}
+
+.ingredients-steps{
+    display: flex;
+    width: 63%;
+    margin-top: 40px;
+}
+
+.ingredients-steps h3{
+    height: 25px;
+    width: 490px;
+    padding: 0px;
+    text-align: center;
+}
+
+hr{
+    margin-left: 46px;
 }
