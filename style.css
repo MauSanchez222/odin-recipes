@@ -27,7 +27,7 @@ header, h3{
 
 h3{
     margin: 20px;
-    padding-left: 20%;
+    padding-left: 25%;
     font-size: 25px;
 }
 
@@ -40,7 +40,8 @@ header{
 p{
     margin: 10px;
     font-size: 20px;
-    padding: 10px 15% 10px 15%;
+    padding: 10px 17% 10px 20%;
+    text-align: justify;
 }
 
 
@@ -55,7 +56,8 @@ a.main-page-links{
 }
 
 li{
-    margin: 10px 15% 10px 15%;
+    margin: 10px 15% 10px 20%;
+    font-size: 18px;
 }
 
 ol{
@@ -75,6 +77,6 @@ img{
     margin: auto;
     margin-bottom: 40px;
     margin-top: 25px;
-    display: flex;
+    display: block;
     box-sizing: border-box;
 }
