@@ -3,6 +3,7 @@ body{
     background-attachment: fixed;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }
 
 h1, h2, header{
@@ -100,9 +101,9 @@ img{
 }
 
 .container p{
-   padding: 0;
-   margin: 100px 40px 100px 40px;
-}
+    padding: 0;
+    margin: 100px 40px 100px 40px;
+ }
 
 .text{
     width: 60%;
@@ -123,6 +124,13 @@ img{
     text-align: center;
 }
 
-hr{
+.ingredients-steps hr{
     margin-left: 46px;
+    background-color: #9EDED8;
+    height: auto;
+}
+
+hr{
+    height: 1px;
+    background-color: #000;
 }
