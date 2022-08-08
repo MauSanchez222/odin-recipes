@@ -67,12 +67,12 @@ ol{
 
 li.link{
     text-align: left;
-    margin-left: 33%;
+    margin-left: 32vw;
     margin-top: 25px;
 }
 
 img{
-    height: 20em;
+    height: 16.7vw;
     width: auto;
     margin: auto;
     margin-bottom: 40px;
@@ -91,8 +91,9 @@ img{
 
 .container{
     height: 100%;
-    width: 63%;
+    width: 62vw;
     display: flex;
+    align-items: center;
 }
 
 .container img{
@@ -102,7 +103,7 @@ img{
 
 .container p{
     padding: 0;
-    margin: 100px 40px 100px 40px;
+    margin: 5vw 2vw 5vw 2vw;
  }
 
 .text{
@@ -119,13 +120,16 @@ img{
 
 .ingredients-steps h3{
     height: 25px;
-    width: 490px;
-    padding: 0px;
-    text-align: center;
+    width: 26vw;
+    padding: 0;
+}
+
+.ingredients-steps h3#steps{
+    width: 100%;
 }
 
 .ingredients-steps hr{
-    margin-left: 46px;
+    margin-left: 2.5vw;;
     background-color: #9EDED8;
     height: auto;
 }
