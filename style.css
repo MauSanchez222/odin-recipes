@@ -67,7 +67,7 @@ ol{
 
 li.link{
     text-align: left;
-    margin-left: 33%;
+    margin-left: 32vw;
     margin-top: 25px;
 }
 
@@ -122,9 +122,11 @@ img{
     height: 25px;
     width: 26vw;
     padding: 0;
+}
 
-    }
-
+.ingredients-steps h3#steps{
+    width: 100%;
+}
 
 .ingredients-steps hr{
     margin-left: 2.5vw;;
