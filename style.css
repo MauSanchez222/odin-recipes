@@ -20,6 +20,8 @@ h1{
 
 h2{
     font-size: 35px;
+    margin:0;
+    padding: 0;
 }
 
 header, h3{
@@ -65,10 +67,17 @@ ol{
     margin-right: 75px;
 }
 
-li.link{
+.main-links-container{
+    text-align: center;
+}
+
+.main-links-container ul{
+    display: inline-block;
     text-align: left;
-    margin-left: 32vw;
-    margin-top: 25px;
+}
+
+.main-links-container li{
+    margin-top: 0;
 }
 
 img{
