@@ -127,18 +127,16 @@ img{
     margin-top: 40px;
 }
 
-.ingredients-steps h3{
-    height: 25px;
-    width: 26vw;
-    padding: 0;
-}
-
-.ingredients-steps h3#steps{
+.ingredients, .steps{
+    flex: 1 1 auto;
     width: 100%;
+    }
+
+.ingredients h3{
+    margin-right: 75px;
 }
 
 .ingredients-steps hr{
-    margin-left: 2.5vw;;
     background-color: #9EDED8;
     height: auto;
 }
