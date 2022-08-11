@@ -11,11 +11,17 @@ h1, h2, header{
 }
 
 h1.main-page-h1{
-    font-size: 50px;
+    font-size: 40px;
+    margin: 1vw 0;
 }
 
 h1{
-    font-size: 40px;
+    margin: 2vw 0;
+    font-size: 35px;
+}
+
+.main-header{
+    margin-top: 2vw;
 }
 
 h2{
@@ -24,24 +30,23 @@ h2{
     padding: 0;
 }
 
-header, h3{
+header, h3, .main-header h1{
     background-color: #ded89e;
 }
 
 h3{
     text-align: center;
     font-size: 25px;
+    margin: 1vw;
 }
 
-header{
-    height: 30px;
-    padding-top: 10px;
-    top: 0;
+header, h3{
+    padding: 10px 0 5px 0;
 }
 
 p{
     margin: 10px;
-    font-size: 20px;
+    font-size: 21px;
     text-align: justify;
 }
 
@@ -53,12 +58,14 @@ a:link, a:visited{
 }
 
 a.main-page-links{
-    font-size: 30px;
+    font-size: 24px;
+    padding: 1vw;
+    display: block;
 }
 
 li{
-    margin: 20px 30px 20px 30px;
-    font-size: 18px;
+    margin: 1vw 2vw;
+    font-size: 20px;
 }
 
 ol{
@@ -68,16 +75,29 @@ ol{
 }
 
 .main-links-container{
+    gap: 2vw;
+    margin: 5vw 15vw; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-page-links{
     text-align: center;
+    width: 0;
+    margin: 0;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    flex: 1 1 0;
 }
 
-.main-links-container ul{
-    display: inline-block;
-    text-align: left;
-}
-
-.main-links-container li{
-    margin-top: 0;
+.main-links-container img{
+    padding: 0 1vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
 }
 
 img{
